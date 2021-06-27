@@ -1,3 +1,9 @@
+/*
+** Author: Jeremy Colameo - 06-2021
+** Benedict.ch
+** kopiert und angepasst/erweitert von:
+** https://github.com/sadi304/shake-event-expo-crna.git
+*/
 
 'use strict';
 
@@ -7,12 +13,9 @@ const LIMIT = 170;
 
 export class SchuettelnEvent {
   static addListener(handler) {
-    let
-      last_x,
-      last_y,
-      last_z;
-    let number = 0;
+    let last_x, last_y, last_z;
     let lastUpdate = 0;
+
     Accelerometer.setUpdateInterval(100);
     Accelerometer.addListener(data => {
       let { x, y, z } = data;
