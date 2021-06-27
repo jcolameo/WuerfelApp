@@ -1,6 +1,6 @@
-## Simple Shake Event Expo (CRNA)
+## WuerfelApp fuer UEK Modul 335 
 
-### Try it out
+### Ausprobieren:
 
 - Install expo-cli
 - Download or clone the repository
@@ -11,4 +11,4 @@ yarn
 yarn start
 ```
 
-#### Works for android / iOS 
+#### Plattformen: Android (ungetestet) und iOS (getestet) 
